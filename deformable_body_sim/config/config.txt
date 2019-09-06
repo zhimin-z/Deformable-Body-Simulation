@@ -1,0 +1,24 @@
+Wireframe              1
+Texture                0
+ScreenWidth            1536
+ScreenHeight           841
+
+MeshType               0
+MeshMass               1
+TetFilePath            ./mesh_models/frog_reg.mesh
+TetScaling             1
+ClothDimension         100 100
+ClothCorners           -5 8 -5 5 8 5
+
+SimMethod              5
+Timestep               0.001
+AttachmentStiffness    12
+StretchStiffness       8
+BendingStiffness       1
+AttachmentStiffnessPBD 1
+StretchStiffnessPBD    0.9
+BendingStiffnessPBD    0.1
+GravityConstant        9.8
+DampingCoefficient     0.01
+RestitutionCoefficient 0.01
+IterationsPerFrame     10
